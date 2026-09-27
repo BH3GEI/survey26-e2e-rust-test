@@ -1,0 +1,8 @@
+{
+  "schema_version": "observer-project-v1",
+  "protocol": "jsonl-v2",
+  "image": "rust:1.90-bookworm",
+  "working_directory": ".",
+  "build": [["cargo", "build", "--release"]],
+  "run": ["./target/release/survey26_agent"]
+}
